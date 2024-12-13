@@ -59,7 +59,6 @@ function updateStatus() {
     activities: [{ name: "Смотрит по всему серверу", type: ActivityType.Custom }],
     status: 'idle',
   });
-  console.log('[ STATUS ]', `Updated status to: ${currentStatus} (${currentType})`);
 }
 
 function heartbeat() {
